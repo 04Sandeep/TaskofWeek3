@@ -5,9 +5,9 @@ public class PascalTraingle
   int i,j,k,rows=6;
   for(i=1;i<rows;i++)
   {
-    for(j=rows-1;j>i;j--)
+    for(j=rows;j>i;j--)
       {
-       System.out.print("");
+       System.out.print(" ");
       }
    int num=1;
     for(k=1;k<=i;k++)
