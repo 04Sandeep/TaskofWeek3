@@ -2,7 +2,7 @@ public class PrimeNumber
 {
   public static void main(String args[])
    {
-     int count=0, i=2, num=5;
+     int count=0, i=2, num=10;
      while(i<=num/2)
      {
  	if(num % i == 0){ 

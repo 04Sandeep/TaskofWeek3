@@ -1,6 +1,6 @@
 public class Paliindrome {
     public static void main(String[] args) {
-        int r, temp, num = 343, sum = 0;
+        int r, temp, num = 3422, sum = 0;
         temp = num;
         while (num > 0)
         {

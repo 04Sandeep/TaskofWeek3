@@ -38,7 +38,7 @@ public abstract class BankAbstraction
         pin = s.nextInt();
         if (pin == 123) {
             System.out.println(" Enter withdraw money");
-          money =bb.nextDouble();
+            money =bb.nextDouble();
             if(balance>=money) {
                 balance = balance - money;
                 System.out.println("Withdraw Money" + money);
@@ -67,10 +67,8 @@ class Bank1
         int i=sc.nextInt();
         switch(i)
         {
-            case 1: ba.depositmoney();
-            break;
-            case 2: ba.withdrawmoney();
-            break;
+            case 1: ba.depositmoney();break;
+            case 2: ba.withdrawmoney();break;
             default: System.out.println("Invalid Choice");
         }
     }
